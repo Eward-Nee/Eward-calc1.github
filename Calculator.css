@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+#screen {
+    font-size: 96px;
+    text-align: center;
+    background-color: rgb(99, 99, 99);
+}
+
+.numberpad {
+    width: 70%;
+    display: inline-block;
+}
+
+.operatorpad {
+    width: 30%;
+    float: inline-end;
+    text-align: center;
+
+}
+
+.operator {
+    font-size: 48px;
+    color: black;
+    background-color: chartreuse;
+    border: 2px solid rgb(190, 190, 190);
+}
+
+.number {
+    font-size: 48px;
+    background-color: brown;
+    width: 33%;
+    float: left;
+    text-align: center;
+    border: 2px solid gold;
+}
+
+.numberpad #nul {
+    background-color: gray;
+    color: black;
+    cursor: not-allowed;
+}
+
+.number:hover:not(#nul) {
+    background-color: chocolate;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.operator:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.action {
+    width: 50%;
+    font-size: 60px;
+    background-color: aqua;
+    color: black;
+    border: 2px solid red;
+    float: left;
+}
+
+.action:hover {
+    background-color: rgb(29, 29, 179);
+    color: aliceblue;
+}
